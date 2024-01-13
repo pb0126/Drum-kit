@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: rgb(42, 47, 118);
+  color: white;
+}
+.container{
+  text-align: center;
+  height: 100vh;
+}
+.header h1{
+  font-weight: bold;
+  font-size: 50px;
+}
+.header p{
+  margin-top: 1em;
+  font-size: 20px;
+  padding: 1em;
+}
+.keyboard{
+  padding: 2em;
+  margin-top: 4em;
+}
+.key-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 300px;
+}
+.key-item button{
+  padding: 1em;
+  border: 1px solid;
+  border-radius: 10%;
+  font-size: 3em;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px rgb(162, 12, 72);
+  color: rgb(0, 0, 0);
+}
+.key-item :nth-child(1){
+  background-image: url("/assets/images/tom1.png");
+}
+.key-item :nth-child(2){
+  background-image: url("/assets/images/tom2.png");
+}
+.key-item :nth-child(3){
+  background-image: url("/assets/images/tom3.png");
+}
+.key-item :nth-child(4){
+  background-image: url("/assets/images/tom3.png");
+}
+.key-item :nth-child(5){
+  background-image: url("/assets/images/snare.png");
+}
+.key-item :nth-child(6){
+  background-image: url("/assets/images/crash.png");
+}
+.key-item :nth-child(7){
+  background-image: url("/assets/images/kick.png");
+}
+.pressed{
+  box-shadow: 10px 8px 8px black;
+  opacity: 0.5;
+}
+
+footer{
+  padding: 1em;
+  font-size: 20px;
+}
